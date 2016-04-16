@@ -1,0 +1,48 @@
+<!-DOCTYPE HTML-->
+<html>
+<head>
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css" type="text/css"  />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-2.2.0.min.js" ></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js" ></script>
+
+</head>
+<body>
+<div data-role="page" id="principal">
+	<div data-role="header">
+		<h1>Mi aplicación</h1>
+	</div>
+	<div data-role="content">
+		<p id="encabezado">Transiciones</p>
+		<a href="#segunda" data-role="button" data-transition="slideup">Transición hacia arriba</a>
+		<a href="#segunda" data-role="button" data-transition="slidedown">Transición hacia abajo</a>
+		<a href="#segunda" data-role="button" data-transition="top">Transición Top</a>
+		<a href="#segunda" data-role="button" data-transition="flip">Transición Flip</a>
+		<a href="#segunda" data-role="button" data-transition="fade">Transición Fade</a>
+		<a href="#segunda" data-role="button" data-transition="flow">Transición Flow</a>
+		<a href="#segunda" data-role="button" data-transition="slidefade">Transición slidefade</a>
+		<a href="#segunda" data-role="button" data-transition="turn">Transición turn</a>
+		<a href="#segunda" data-role="button" data-transition="none">Transición ninguno</a>
+  	</div>
+	<div data-role="footer">
+     	<div  data-role="controlgroup" data-type="horizontal">
+			<a href="#segunda" class="ui-btn ui-icon-info-white ui-icon-left">Abrir</a>
+			<a href="#" class="ui-btn">Fecebook</a>
+			<a href="#" class="ui-btn">Twitter</a>
+		</div>
+	</div>
+</div>
+<div data-role="page" id="segunda">
+	<div data-role="header">
+		<h1>Interfaz 2</h1>
+	</div>
+	<div data-role="content">
+		<p>Hola mundo 2</p>
+	</div>
+	<div data-role="footer">
+		<p>pie de página 2</p>
+	</div>
+</div>
+</body>
+</html>
